@@ -9,3 +9,10 @@ $("#js-rotating").Morphext({
         // Called after the entrance animation is executed.
     }
 });
+
+document.querySelector('#About').addEventListener('click', showAbout)
+
+function showAbout() {
+    document.querySelector('.main').addClassList('hidden')
+    document.querySelector('.About').classList.toggle('hidden')
+}
