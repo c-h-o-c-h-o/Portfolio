@@ -902,7 +902,7 @@
 
 /* Main */
 
-	#main {
+	.main {
 		-moz-transform-origin: 50% 50%;
 		-webkit-transform-origin: 50% 50%;
 		-ms-transform-origin: 50% 50%;
@@ -926,20 +926,20 @@
 		width: 27em;
 	}
 
-		#main .avatar {
+		.main .avatar {
 			position: relative;
 			display: block;
 			margin-bottom: 1.5em;
 		}
 
-			#main .avatar img {
+			.main .avatar img {
 				display: block;
 				margin: 0 auto;
 				border-radius: 100%;
 				box-shadow: 0 0 0 1.5em #ffffff;
 			}
 
-			#main .avatar:before {
+			.main .avatar:before {
 				content: '';
 				display: block;
 				position: absolute;
@@ -953,28 +953,32 @@
 
 		@media screen and (max-width: 480px) {
 
-			#main {
+			.main {
 				padding: 4em 2em 2.5em 2em ;
 				width: 100%;
 			}
 
-				#main .avatar:before {
+				.main .avatar:before {
 					left: -2em;
 					width: calc(100% + 4em);
 				}
 
 		}
 
-		body.is-preload #main {
+		body.is-preload .main {
 			-moz-transform: rotateX(15deg);
 			-webkit-transform: rotateX(15deg);
 			-ms-transform: rotateX(15deg);
 			transform: rotateX(15deg);
 			opacity: 0;
 		}
-		#main p {
+		.main p {
 			font-size: 1.5rem;
 		}
+/* Hidden Toggle content */
+	.hidden {
+		display: none;
+	}
 /* Footer */
 
 	#footer {
