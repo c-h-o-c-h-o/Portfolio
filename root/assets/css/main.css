@@ -223,7 +223,8 @@
 		}
 
 	h1 {
-		font-size: 1.85em;
+		font-weight: bold;
+		font-size: 2em;
 		letter-spacing: 0.22em;
 		margin: 0 0 0.525em 0;
 	}
@@ -899,7 +900,36 @@
 			pointer-events: none;
 			opacity: 0.5;
 		}
-
+/* header & Hamburger butan */
+	
+	header {
+		padding-top: 2%;
+		padding-right: 2%;
+		text-align: center;
+		z-index: 5;
+		position: fixed;
+		top: 0;
+		right: 0;
+		color: rgba(255, 255, 255, .75);
+		font-size: 1.75rem;
+	}	
+	header ul {
+		padding-left: 0;
+	}
+	.nav-items {
+		list-style: none;
+		cursor: pointer;
+	}
+	#Projects {
+		padding-left: .5em;
+		padding-right: .5em;
+	}
+	.nav-items:hover {
+		color: rgba(255, 255, 255);
+		transition: .5s;
+		background:rgb(46,49,65, .5);
+		border-radius: 30px;
+	}
 /* Main */
 
 	.main {
@@ -924,6 +954,7 @@
 		position: relative;
 		text-align: center;
 		width: 27em;
+		height: auto;
 	}
 
 		.main .avatar {
@@ -979,6 +1010,69 @@
 	.hidden {
 		display: none;
 	}
+
+/* About */
+	.About h2 {
+		font-size: 2rem;
+		font-weight: bold;
+		color:  rgb(46,49,65);
+	}
+
+/* Resume */
+	.Resume h2 {
+		font-size: 2rem;
+		font-weight: bold;
+		color:  rgb(46,49,65);
+	}
+	.Resume h3 {
+		font-size: 1.5rem;
+		font-weight: bold;
+		color:  rgb(46,49,65);
+	}
+	.Resume ul {
+		padding-left: 0;
+	}
+	.Resume ul li{
+		list-style-type: none;
+		padding-left: 0;
+	}
+
+/* Projects */
+	.Projects h2 {
+		font-size: 2rem;
+		font-weight: bold;
+		color:  rgb(46,49,65);
+	}
+	.project-previews {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.project-previews a {
+		color:  rgb(46,49,65, .5);
+	}
+	.project-previews a:hover {
+		transition: .5s;
+		color:  rgb(46,49,65);
+	}
+	.project-box {
+		width: 95%;
+		height: 14rem;
+		margin: 0 auto;
+	}
+	#cafe {
+		background: url('../../images/cafe.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	#simple-login {
+		background: url('../../images/simplelogin.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
 /* Footer */
 
 	#footer {

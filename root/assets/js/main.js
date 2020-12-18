@@ -10,9 +10,45 @@ $("#js-rotating").Morphext({
     }
 });
 
+const home = document.querySelector('.main')
+const about = document.querySelector('.About')
+const resume = document.querySelector('.Resume')
+const projects = document.querySelector('.Projects')
+
+document.querySelector('#Home').addEventListener('click', showHome)
 document.querySelector('#About').addEventListener('click', showAbout)
+document.querySelector('#Resume').addEventListener('click', showResume)
+document.querySelector('#Projects').addEventListener('click', showProjects)
+
+
+function showHome() {
+    home.classList.remove('hidden')
+    about.classList.add('hidden')
+    resume.classList.add('hidden')
+    projects.classList.add('hidden')
+    
+}
 
 function showAbout() {
-    document.querySelector('.main').addClassList('hidden')
-    document.querySelector('.About').classList.toggle('hidden')
+    home.classList.add('hidden')
+    about.classList.remove('hidden')
+    about.classList.add('main')
+    resume.classList.add('hidden')
+    projects.classList.add('hidden')
+}
+
+function showResume() {
+    home.classList.add('hidden')
+    about.classList.add('hidden')
+    resume.classList.remove('hidden')
+    resume.classList.add('main')
+    projects.classList.add('hidden')
+}
+
+function showProjects() {
+    home.classList.add('hidden')
+    about.classList.add('hidden')
+    resume.classList.add('hidden')
+    projects.classList.add('main')
+    projects.classList.remove('hidden')
 }
