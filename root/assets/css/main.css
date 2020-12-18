@@ -1004,7 +1004,9 @@
 				padding: 4em 2em 2.5em 2em ;
 				width: 100%;
 			}
-
+			.main h1 {
+				font-size: 1.65rem;
+			}
 				.main .avatar:before {
 					left: -2em;
 					width: calc(100% + 4em);
