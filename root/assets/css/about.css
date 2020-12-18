@@ -134,15 +134,8 @@
 			background-repeat: repeat,			no-repeat;
 			background-size: 100px 100px, cover;
 			background-position: top left,		center center;
-			-moz-transition: opacity 1.75s ease-out;
-			-webkit-transition: opacity 1.75s ease-out;
-			-ms-transition: opacity 1.75s ease-out;
-			transition: opacity 1.75s ease-out;
 		}
 
-		body.is-preload:after {
-			opacity: 1;
-		}
 
 /* Type */
 
@@ -916,11 +909,12 @@
 		list-style: none;
 		cursor: pointer;
 	}
-	#past-work {
+	#Projects {
 		padding-left: .5em;
 		padding-right: .5em;
 	}
 	.nav-items:hover {
+		color: rgba(255, 255, 255);
 		transition: .5s;
 		background:rgb(46,49,65, .5);
 		border-radius: 30px;
@@ -1025,72 +1019,12 @@
 	.main p {
 		font-size: 100%;
 	}
-/* Hidden Toggle content */
-	.hidden {
-		display: none;
-	}
 
 /* About */
 	.about h2 {
 		font-size: 2rem;
 		font-weight: bold;
 		color:  rgb(46,49,65);
-	}
-
-/* Skills */
-	.skills h2 {
-		font-size: 2rem;
-		font-weight: bold;
-		color:  rgb(46,49,65);
-	}
-	.skills h3 {
-		font-size: 1.5rem;
-		font-weight: bold;
-		color:  rgb(46,49,65);
-	}
-	.skills ul {
-		padding-left: 0;
-	}
-	.skills ul li{
-		list-style-type: none;
-		padding-left: 0;
-	}
-
-/* Projects */
-
-	.projects h2 {
-		font-size: 2rem;
-		font-weight: bold;
-		color:  rgb(46,49,65);
-	}
-	.project-previews {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-	.project-previews a {
-		color:  rgb(46,49,65, .5);
-	}
-	.project-previews a:hover {
-		transition: .5s;
-		color:  rgb(46,49,65);
-	}
-	.project-box {
-		width: 95%;
-		height: 14rem;
-		margin: 0 auto;
-	}
-	#cafe {
-		background: url('../../images/cafe.png');
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-	}
-	#simple-login {
-		background: url('../../images/simplelogin.png');
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
 	}
 
 /* Footer */
