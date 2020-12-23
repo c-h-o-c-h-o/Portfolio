@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Justin Cho</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="Hi, I'm Justin. Nice to meet you~">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel='stylesheet' href='assets/css/morphext.css'>
+		<link rel='stylesheet' href='assets/css/animate.css'>
+		<link rel="stylesheet" href="assets/css/contact.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+                <!-- Main -->
+                <header>
+                    <nav>
+                        <li class='nav-items'><a href='index.html'>Home</a></li>
+                            <li class='nav-items'><a href='about.html'>About</a></li>
+                            <li class='nav-items'><a href='skills.html'>Skills</a></li>
+                            <li class='nav-items'><a id='past-work' href='past-work.html'>Past work</a></li>
+                            <li class='nav-items'><a href='contact.html'>Contact</a></li>
+                        </ul>
+                    </nav>
+                </header>
+				<section class="main">
+                    <div>
+                        <h1>Contact Me</h1>
+                        <form name="contact" method="post" data-netlify="true" action="#">
+                            <div class="fields">
+                                <div class="field">
+                                    <input type="text" name="name" id="name" placeholder="Name" />
+                                </div>
+                                <div class="field">
+                                    <input type="email" name="email" id="email" placeholder="Email" />
+                                </div>
+                                <div class="field">
+                                    <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+                                </div>
+                                <div class="field">
+                                    <input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+                                </div>
+                            </div>
+                            <button type='submit'>Send</button>
+                        </form>
+                    </div>
+                </section>
+        
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; Justin Cho</li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+			<script src="assets/js/jquery.js"></script>
+			<script src="assets/js/morphext.js"></script>
+			<script type="text/javascript" src="assets/js/main.js"></script>
+	</body>
+</html>
