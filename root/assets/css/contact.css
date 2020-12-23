@@ -1140,7 +1140,7 @@ input[type="radio"] + label:before {
 /* header & Hamburger butan */
 	
 	header {
-		padding-top: 12.5%;
+		padding-top: 14%;
 		padding-right: 2%;
 		text-align: center;
 		z-index: 5;
