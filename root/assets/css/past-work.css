@@ -1030,6 +1030,12 @@
 		height: 14rem;
 		margin: 0 auto;
 	}
+	#calc {
+		background: url('../../images/Calc.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
 	#cafe {
 		background: url('../../images/cafe.png');
 		background-size: cover;
