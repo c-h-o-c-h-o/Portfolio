@@ -1048,6 +1048,12 @@
 		background-repeat: no-repeat;
 		background-position: center;
 	}
+	#the-office {
+		background: url('../../images/the-office-tribute.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
 
 /* Footer */
 
