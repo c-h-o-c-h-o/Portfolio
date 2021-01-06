@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang='en'>
 	<head>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-3EMXK93QPX%22%3E"></script>
@@ -13,7 +13,7 @@
 		<title>Justin Cho</title>
 		<meta charset="utf-8" />
 		<meta name="description" content="Hi, I'm Justin. Nice to meet you~">
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel='stylesheet' href='assets/css/morphext.css'>
 		<link rel='stylesheet' href='assets/css/animate.css'>
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -27,7 +27,8 @@
 				<!-- Main -->
 					<header>
 						<nav>
-							<li class='nav-items'><a href='index.html'>Home</a></li>
+							<ul>
+								<li class='nav-items'><a href='index.html'>Home</a></li>
 								<li class='nav-items'><a href='about.html'>About</a></li>
 								<li class='nav-items'><a href='skills.html'>Skills</a></li>
 								<li class='nav-items'><a id='past-work' href='past-work.html'>Past work</a></li>
@@ -37,16 +38,22 @@
 					</header>
 					<section class="main">
 						<div>
-							<span class="avatar"><img src="images/avatar.jpg" alt="Picture of Justin" /></span>
+							<span class="avatar">
+								<picture>
+									<source type="image/webp" srcset="images/avatar.webp">
+									<source type="image/jpeg" srcset="images/avatar.jpg">
+									<img src="images/avatar.jpg" alt="Picture of Justin" />
+								</picture>
+							</span>
 							<h1>Hi, I'm Justin I'm a Full Stack Web Developer</h1>
 							<p>I can help connect your <span id="js-rotating">Brand with the World, Ideas with the World, Potential with the World</span></p>
 						</div>
 			
 						<footer>
 							<ul class="icons">
-								<li><a target='_blank' href="https://twitter.com/cookedbyakorean" class="icon brands fa-twitter">Twitter</a></li>
-								<li><a target='_blank' href="https://www.linkedin.com/in/cookedbyakorean/" class="icon brands fa-linkedin">LinkedIn</a></li>
-								<li><a target='_blank' href="https://github.com/c-h-o-c-h-o" class="icon brands fa-github">Github</a></li>
+								<li><a rel='noopener' target='_blank' href="https://twitter.com/cookedbyakorean" class="icon brands fa-twitter">Twitter</a></li>
+								<li><a rel='noopener' target='_blank' href="https://www.linkedin.com/in/cookedbyakorean/" class="icon brands fa-linkedin">LinkedIn</a></li>
+								<li><a rel='noopener' target='_blank' href="https://github.com/c-h-o-c-h-o" class="icon brands fa-github">Github</a></li>
 							</ul>
 						</footer>
 					</section>
