@@ -1031,25 +1031,25 @@
 		margin: 0 auto;
 	}
 	#calc {
-		background: url('../../images/Calc.png');
+		background: url('../../images/Calc.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
 	}
 	#cafe {
-		background: url('../../images/cafe.png');
+		background: url('../../images/cafe.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
 	}
 	#simple-login {
-		background: url('../../images/simplelogin.png');
+		background: url('../../images/simplelogin.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
 	}
 	#the-office {
-		background: url('../../images/the-office-tribute.png');
+		background: url('../../images/the-office-tribute.webp');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
