@@ -1030,6 +1030,18 @@
 		height: 14rem;
 		margin: 0 auto;
 	}
+	#portfolio {
+		background: url('../../images/portfolio.webp');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	#dict {
+		background: url('../../images/owlbot-dict.webp');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
 	#calc {
 		background: url('../../images/Calc.webp');
 		background-size: cover;
